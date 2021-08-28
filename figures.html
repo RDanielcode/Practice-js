@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometrics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Calculating you figures</h1>
+    </header>
+    <section class="container">
+        <div class="container__data">
+            <p>Enter your figure name</p>
+            <input type="text" id="container__input">
+            <button id="container__button" onclick="showFigure()"> Press</button>
+        </div>
+        <div id="container__figure">
+
+        </div>
+        <div class="container__result">
+            <input class="container__details" type="number" id="l1"> <p>side1 or r</p> <br> 
+            <input class="container__details" type="number" id="l2"> <p>side2</p><br>
+            <input class="container__details" type="number" id="l3"> <p>side3</p><br>
+            <div class="container__result--final" id="result"></div>
+            <button onclick="calcArea()" id="container__result--button">Result</button>
+        </div>
+    </section>
+    <script src="figures.js"></script>
+</body>
+</html>
