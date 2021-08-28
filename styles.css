@@ -14,7 +14,7 @@
     width: 600px;
     border-radius: 40px;
     border: solid 2px;
-    background-image: url("./img/calculadora.png");
+    background-image: url("./img/calcu.png");
 }
 
 .container__data {
@@ -22,12 +22,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .container__data p {
     margin: 3px 0px;
     padding: 0px;
+    font-size: 20px;
 }
 
 #container__input{
@@ -41,6 +42,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 20px;
 }
 
 .container__result{
@@ -58,6 +60,7 @@
 .container__result p {
     padding: 0px;
     margin: 0px 0px;
+    font-size: 20px;
 }
 
 .container__result--final{
@@ -74,7 +77,6 @@ body {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(212,56,17,1) 35%, rgba(0,212,255,1) 100%);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #FFC733;
     display: flex;
     align-items: center;
     flex-direction: column;
