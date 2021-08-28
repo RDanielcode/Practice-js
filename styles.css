@@ -14,7 +14,7 @@
     width: 600px;
     border-radius: 40px;
     border: solid 2px;
-    background-image: url("./img/calcu.png");
+    background-image: url("./img/calculad.png");
 }
 
 .container__data {
@@ -80,4 +80,16 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media only screen and (max-width: 100vw){
+    .container{
+        border: none;
+        width: 100%;
+
+    }
+
+    .header{
+        color: white;
+    }
 }
