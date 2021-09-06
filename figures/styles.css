@@ -83,7 +83,7 @@ body {
     flex-direction: column;
 }
 
-@media only screen and (max-width: 100vw){
+@media only (min-width: 500vw){
     .container{
         border: none;
         width: 100%;
